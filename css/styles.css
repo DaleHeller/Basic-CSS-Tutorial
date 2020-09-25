@@ -16,7 +16,7 @@ body {
     background-color: rgb(233, 230, 230);
     max-width: 1000px;
     margin: 0 auto;
-    background-image:url(/img/gradient.png);
+    background-image:url(/..img/gradient.png);
     background-position: center;
 }
 h1{
