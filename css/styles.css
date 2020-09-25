@@ -1,4 +1,69 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#the-one {
+    color: darkblue;
+}
+html{
+    box-sizing: border-box;
+    font-size:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(233, 230, 230);
+    max-width: 1000px;
+    margin: 0 auto;
+}
 h1{
     color: red;
-    background-color:lightyellow;
+    background-color: cornsilk;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -0.1rem;
+    word-spacing: 0.3rem;
+    margin: 0.5rem;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    letter-spacing: -0.03rem;
+    margin-left: 0.5rem;
+}
+a {
+    text-decoration: none;
+    background-color: rgb(233, 230, 230);
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: plum;
+}
+a:active {
+    color: palevioletred;
+}
+.new-color{
+    color: blue;
+    background-color: rgb(212, 206, 206);  
+}
+.box {
+    background-color: coral;
+    width: 300px;
+    padding: 30px;
+    border: 20px solid orangered;
+    margin: 30px;
+}
+.standard-box{
+   box-sizing: content-box;
+}
+.border-box{
+    background-color: coral;
+    width: 300px;
+    padding: 30px;
+    border: 20px solid orangered;
+    margin: 30px;
+    box-sizing: border-box;
 }
