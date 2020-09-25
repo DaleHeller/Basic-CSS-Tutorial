@@ -16,6 +16,7 @@ body {
     background-color: rgb(233, 230, 230);
     max-width: 1000px;
     margin: 0 auto;
+    background-image: url("img/Portfolio Image Blossom copy.jpg");
 }
 h1{
     color: red;
@@ -31,6 +32,12 @@ p {
     font-weight: normal;
     letter-spacing: -0.03rem;
     margin-left: 0.5rem;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+
 }
 a {
     text-decoration: none;
